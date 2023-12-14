@@ -1,0 +1,21 @@
+Thara Radha Palaniswamy
+101189487
+
+
+Location.cc: Contains map coordinates as well as the street names.
+Order.cc: Contains information about a customer’s Order from Pierres.
+Entity.cc: Contains Pierres user information - base class for Franchises and Drivers.
+Franchise.cc: An Entity representing a Pierres franchise location.
+Driver.cc: An Entity who pickups and delivers Orders.
+Queue.cc: ’first-in first-out’ data structure made from a linked list to store Orders.
+Pierres.cc: Manages the Drivers and Franchises of Pierres.
+(b) Coordinates taking, picking up, and delivering Orders.
+Controller.cc: Controls the interaction of Pierres with the View.
+View.cc: Provides a user menu, takes input, and gives output
+makefile
+defs.h
+all cc files also have a respective header file
+
+Compile by typing make a3 
+then ./a3
+
